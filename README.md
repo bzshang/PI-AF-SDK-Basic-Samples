@@ -41,20 +41,46 @@ Some examples depend on having run prior examples successfully. This is because 
 
 A recommended learning path for going through the examples is as follows:
 
-1. ConnectionExamples/AFConnectionExample
-2. ConnectionExamples/PIConnectionExample
-3. AFElementExamples/FindElementsExample
-4. AFElementExamples/PartialLoadElementsExample
-5. AFElementExamples/LoadElementsExample
-6. AFAttributetExamples/FindAttributeWalkDownExample
-7. AFAttributeExamples/FindAttributesByPathExample 
-8. AFAttributeExamples/FindElementAttributesExample
-9. ReadingValuesExamples/ReadFromAFExample
-10. PIPointExamples/FindPIPointsExample
-11. ReadingValuesExamples/ReadFromPIExample
-12. BuildAFDatabaseExamples/BuildSimpleDatabaseExample
-13. WriteValuesExample/WriteValuesUsingAFExample
-14. PIPointExamples/CreatePIPointsExample
-15. WriteValuesExample/WriteValuesUsingPIExample
-16. AFEventFrameExamples/CreateEventFrameExample
-17. AFEventFrameExamples/FindEventFramesExample
+### 1.0 Connecting
+
+- ConnectionExamples/AFConnectionExample
+- ConnectionExamples/PIConnectionExample
+
+### 2.0 Finding and loading AF Elements
+
+- AFElementExamples/FindElementsExample
+- AFElementExamples/PartialLoadElementsExample
+- AFElementExamples/LoadElementsExample
+ 
+### 3.0 Finding AF attributes
+
+- AFAttributetExamples/FindAttributeWalkDownExample
+- AFAttributeExamples/FindAttributesByPathExample 
+- AFAttributeExamples/FindElementAttributesExample
+
+### 4.0 Finding PIPoints
+
+- PIPointExamples/FindPIPointsExample
+
+### 5.0 Reading values
+
+- ReadingValuesExamples/ReadFromAFExample
+- ReadingValuesExamples/ReadFromPIExample
+
+### 6.0 Creating AF objects
+
+- BuildAFDatabaseExamples/BuildSimpleDatabaseExample
+
+### 7.0 Create PI Points 
+
+- PIPointExamples/CreatePIPointsExample
+
+### 8.0 Writing values
+
+- WriteValuesExample/WriteValuesUsingAFExample
+- WriteValuesExample/WriteValuesUsingPIExample
+
+### 9.0 Event frames
+
+- AFEventFrameExamples/CreateEventFrameExample
+- AFEventFrameExamples/FindEventFramesExample
