@@ -1,5 +1,5 @@
 # PI-AF-SDK-Basic-Samples
-This repositoy provides self-contained and reproducible samples of basic operations using AF SDK.
+This repository provides self-contained and reproducible samples of basic operations using AF SDK.
 
 Each example is a separate class and output to the Console.
 
