@@ -17,8 +17,8 @@ namespace ExamplesLibrary
     {
         public void Run()
         {
-            string processFeedRate = @"\\BSHANG-PI1\NuGreen\NuGreen\Houston\Cracking Process\Equipment\B-210|Process Feedrate";
-            string waterFlow = @"\\BSHANG-PI1\NuGreen\NuGreen\Houston\Cracking Process\Equipment\B-210|Water Flow";
+            string processFeedRate = @"\\<AFSERVER>\NuGreen\NuGreen\Houston\Cracking Process\Equipment\B-210|Process Feedrate";
+            string waterFlow = @"\\<AFSERVER>\NuGreen\NuGreen\Houston\Cracking Process\Equipment\B-210|Water Flow";
 
             // Directly locate the AFAttribute of interest by passing in the AF path.
             // A similar method FindElementsByPath can be used to directly locate elements.

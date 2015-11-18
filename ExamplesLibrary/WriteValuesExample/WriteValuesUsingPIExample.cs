@@ -16,7 +16,7 @@ namespace ExamplesLibrary
         public void Run()
         {
             PIServers piServers = new PIServers();
-            PIServer piServer = piServers["BSHANG-PI1"];
+            PIServer piServer = piServers["<PISERVER>"];
 
             IList<PIPoint> points = PIPoint.FindPIPoints(piServer, new[] { "sample_floatpoint", "sample_digitalpoint" });
 

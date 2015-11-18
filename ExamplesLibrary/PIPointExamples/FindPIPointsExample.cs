@@ -18,7 +18,7 @@ namespace ExamplesLibrary
         public void Run()
         {
             PIServers piServers = new PIServers();
-            PIServer piServer = piServers["BSHANG-PI1"];
+            PIServer piServer = piServers["<PISERVER>"];
 
             // Use PICommonPointAttributes so we don't have to remember the strings for point attributes.
             PIPointQuery compressionFilter = new PIPointQuery {

@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI-AF-SDK-Basic-Samples", "PI-AF-SDK-Basic-Samples\PI-AF-SDK-Basic-Samples.csproj", "{62331726-9C1F-42B0-9228-9912173CB83C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI-AF-SDK-Basic-Samples-Console", "PI-AF-SDK-Basic-Samples\PI-AF-SDK-Basic-Samples-Console.csproj", "{62331726-9C1F-42B0-9228-9912173CB83C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplesLibrary", "ExamplesLibrary\ExamplesLibrary.csproj", "{7F3B7E46-6C71-47F2-97BA-F28B1E79D879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9EFAAAF2-D85C-4370-9E2D-2A35F821A982}"
+	ProjectSection(SolutionItems) = preProject
+		NuGreen.xml = NuGreen.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

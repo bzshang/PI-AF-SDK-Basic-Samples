@@ -17,7 +17,7 @@ namespace ExamplesLibrary
         public void Run()
         {
             PISystems piSystems = new PISystems();
-            PISystem piSystem = piSystems["BSHANG-PI1"];
+            PISystem piSystem = piSystems["<AFSERVER>"];
 
             AFDatabase afDatabase = piSystem.Databases["NuGreen"];
 
