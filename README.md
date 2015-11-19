@@ -37,50 +37,60 @@ Please replace these with your server names before starting.
 
 Some examples depend on having run prior examples successfully. This is because these dependent examples require AF objects and/or PI Points to have been created by the prior examples. The comments in the code above each class will explicitly list out the dependencies of each example.
 
+###
+
+To run a particular example, simply instantiate a new object from the example type and call its Run() method.
+
+To run the AFConnectionExample, for instance, use:
+```
+IExample example = new AFConnectionExample();
+example.Run()
+```
+
 ## Recommended learning path
 
 A recommended learning path for going through the examples is as follows:
 
 ### 1.0 Connecting
 
-- ConnectionExamples/AFConnectionExample
-- ConnectionExamples/PIConnectionExample
+- [ConnectionExamples/AFConnectionExample](/ExamplesLibrary/ConnectionExamples/AFConnectionExample.cs)
+- [ConnectionExamples/PIConnectionExample](/ExamplesLibrary/ConnectionExamples/PIConnectionExample.cs)
 
 ### 2.0 Finding and loading AF Elements
 
-- AFElementExamples/FindElementsExample
-- AFElementExamples/PartialLoadElementsExample
-- AFElementExamples/LoadElementsExample
+- [AFElementExamples/FindElementsExample](/ExamplesLibrary/ConnectionExamples/FindElementsExample.cs)
+- [AFElementExamples/PartialLoadElementsExample](/ExamplesLibrary/ConnectionExamples/PartialLoadElementsExample.cs)
+- [AFElementExamples/LoadElementsExample](/ExamplesLibrary/ConnectionExamples/LoadElementsExample.cs)
  
 ### 3.0 Finding AF attributes
 
-- AFAttributetExamples/FindAttributeWalkDownExample
-- AFAttributeExamples/FindAttributesByPathExample 
-- AFAttributeExamples/FindElementAttributesExample
+- [AFAttributetExamples/FindAttributeWalkDownExample](/ExamplesLibrary/ConnectionExamples/FindAttributeWalkDownExample.cs)
+- [AFAttributeExamples/FindAttributesByPathExample](/ExamplesLibrary/ConnectionExamples/FindAttributesByPathExample.cs)
+- [AFAttributeExamples/FindElementAttributesExample](/ExamplesLibrary/ConnectionExamples/FindElementAttributesExample.cs)
 
 ### 4.0 Finding PIPoints
 
-- PIPointExamples/FindPIPointsExample
+- [PIPointExamples/FindPIPointsExample](/ExamplesLibrary/ConnectionExamples/FindPIPointsExample.cs)
 
 ### 5.0 Reading values
 
-- ReadingValuesExamples/ReadFromAFExample
-- ReadingValuesExamples/ReadFromPIExample
+- [ReadingValuesExamples/ReadFromAFExample](/ExamplesLibrary/ConnectionExamples/ReadFromAFExample.cs)
+- [ReadingValuesExamples/ReadFromPIExample](/ExamplesLibrary/ConnectionExamples/ReadFromPIExample.cs)
 
 ### 6.0 Creating AF objects
 
-- BuildAFDatabaseExamples/BuildSimpleDatabaseExample
+- [BuildAFDatabaseExamples/BuildSimpleDatabaseExample](/ExamplesLibrary/ConnectionExamples/BuildSimpleDatabaseExample.cs)
 
 ### 7.0 Create PI Points 
 
-- PIPointExamples/CreatePIPointsExample
+- [PIPointExamples/CreatePIPointsExample](/ExamplesLibrary/ConnectionExamples/CreatePIPointsExample.cs)
 
 ### 8.0 Writing values
 
-- WriteValuesExample/WriteValuesUsingAFExample
-- WriteValuesExample/WriteValuesUsingPIExample
+- [WriteValuesExample/WriteValuesUsingAFExample](/ExamplesLibrary/ConnectionExamples/WriteValuesUsingAFExample.cs)
+- [WriteValuesExample/WriteValuesUsingPIExample](/ExamplesLibrary/ConnectionExamples/WriteValuesUsingPIExample.cs)
 
 ### 9.0 Event frames
 
-- AFEventFrameExamples/CreateEventFrameExample
-- AFEventFrameExamples/FindEventFramesExample
+- [AFEventFrameExamples/CreateEventFrameExample](/ExamplesLibrary/ConnectionExamples/CreateEventFrameExample.cs)
+- [AFEventFrameExamples/FindEventFramesExample](/ExamplesLibrary/ConnectionExamples/FindEventFramesExample.cs)
