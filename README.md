@@ -35,7 +35,13 @@ Please replace these with your server names before starting.
 
 ### Dependencies
 
-Some examples depend on having run prior examples successfully. This is because these dependent examples require AF objects and/or PI Points to have been created by the prior examples. The comments in the code above each class will explicitly list out the dependencies of each example.
+Some examples depend on having run prior examples successfully. This is because these dependent examples require AF objects and/or PI Points to have been created by the prior examples. The comments in the code above each class will explicitly list out the dependencies of each example. For instance,
+
+```
+    /// <prerequisite-examples>
+    /// BuildSimpleDatabaseExample, CreateEventFramesExample
+    /// </prerequisite-examples>
+```    
 
 ###
 
