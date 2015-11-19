@@ -70,9 +70,9 @@ A recommended learning path for going through the examples is as follows:
  
 ### 3.0 Finding AF attributes
 
-- [AFAttributetExamples/FindAttributeWalkDownExample](/ExamplesLibrary/AFAttributetExamples/FindAttributeWalkDownExample.cs)
-- [AFAttributeExamples/FindAttributesByPathExample](/ExamplesLibrary/AFAttributetExamples/FindAttributesByPathExample.cs)
-- [AFAttributeExamples/FindElementAttributesExample](/ExamplesLibrary/AFAttributetExamples/FindElementAttributesExample.cs)
+- [AFAttributeExamples/FindAttributeWalkDownExample](/ExamplesLibrary/AFAttributeExamples/FindAttributeWalkDownExample.cs)
+- [AFAttributeExamples/FindAttributesByPathExample](/ExamplesLibrary/AFAttributeExamples/FindAttributesByPathExample.cs)
+- [AFAttributeExamples/FindElementAttributesExample](/ExamplesLibrary/AFAttributeExamples/FindElementAttributesExample.cs)
 
 ### 4.0 Finding PIPoints
 
