@@ -96,7 +96,7 @@ A recommended learning path for going through the examples is as follows:
 - [WriteValuesExample/WriteValuesUsingAFExample](/ExamplesLibrary/WriteValuesExample/WriteValuesUsingAFExample.cs)
 - [WriteValuesExample/WriteValuesUsingPIExample](/ExamplesLibrary/WriteValuesExample/WriteValuesUsingPIExample.cs)
 
-### 9.0 Event frames
+### 9.0 Creating and Finding Event Frames
 
 - [AFEventFrameExamples/CreateEventFrameExample](/ExamplesLibrary/AFEventFrameExamples/CreateEventFrameExample.cs)
 - [AFEventFrameExamples/FindEventFramesExample](/ExamplesLibrary/AFEventFrameExamples/FindEventFramesExample.cs)
