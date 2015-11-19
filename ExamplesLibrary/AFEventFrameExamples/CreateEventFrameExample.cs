@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OSIsoft.AF;
+﻿using OSIsoft.AF;
 using OSIsoft.AF.Asset;
 using OSIsoft.AF.EventFrame;
 using OSIsoft.AF.Time;
 
+
 namespace ExamplesLibrary
 {
+    /// <summary>
+    /// This example creates 5 event frames of 1 day periods spanning the last 5 days.
+    /// The primary referenced element for the event frames are set to the Region_0\BoilerA element.
+    /// </summary>
+    /// <prerequisite-examples>
+    /// BuildSimpleDatabaseExample
+    /// </prerequisite-examples>
     public class CreateEventFrameExample : IExample
     {
         public void Run()

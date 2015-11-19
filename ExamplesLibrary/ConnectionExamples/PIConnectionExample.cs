@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OSIsoft.AF;
-using OSIsoft.AF.PI;
-using OSIsoft.AF.Asset;
+﻿using OSIsoft.AF.PI;
+
 
 namespace ExamplesLibrary
 {
+    /// <summary>
+    /// This example demonstrates making a connection to an PI Data Archive using an implicit connection and an explicit connection.
+    /// </summary>
+    /// <prerequisite-examples>
+    /// none
+    /// </prerequisite-examples>
     public class PIConnectionExample : IExample
     {
         public void Run()

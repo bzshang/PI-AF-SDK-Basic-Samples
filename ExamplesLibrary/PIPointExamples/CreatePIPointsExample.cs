@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using OSIsoft.AF;
-using OSIsoft.AF.Asset;
 using OSIsoft.AF.PI;
+
 
 namespace ExamplesLibrary
 {
     /// <summary>
     /// This example creates a floating and digital PI Point on the server.
     /// </summary>
+    /// <prerequisite-examples>
+    /// none
+    /// </prerequisite-examples>
     public class CreatePIPointsExample : IExample
     {
         public void Run()

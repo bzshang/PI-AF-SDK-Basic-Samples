@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OSIsoft.AF;
+﻿using OSIsoft.AF;
 using OSIsoft.AF.Asset;
+
 
 namespace ExamplesLibrary
 {
+    /// <summary>
+    /// This example demonstrates making a connection to an AF Server using an implicit connection and an explicit connection.
+    /// </summary>
+    /// <prerequisite-examples>
+    /// none
+    /// </prerequisite-examples>
     public class AFConnectionExample : IExample
     {
         public void Run()
@@ -16,20 +18,20 @@ namespace ExamplesLibrary
             ExplicitConnection();
         }
 
-        public void ImplicitConnection()
+        private void ImplicitConnection()
         {
             PISystems piSystems = new PISystems();
-            PISystem piSystem = piSystems["AFServerName"];
+            PISystem piSystem = piSystems["<AFSERVER>"];
             // At this point, no connection is made.
 
             AFAttribute afAttribute = AFAttribute.FindAttribute(@"NuGreen\NuGreen\Houston|Environment", piSystem);
             // Now a connection is made by first data access.
         }
 
-        public void ExplicitConnection()
+        private void ExplicitConnection()
         {
             PISystems piSystems = new PISystems();
-            PISystem piSystem = piSystems["AFServerName"];
+            PISystem piSystem = piSystems["<AFSERVER>"];
             // At this point, no connection is made.
 
             piSystem.Connect();

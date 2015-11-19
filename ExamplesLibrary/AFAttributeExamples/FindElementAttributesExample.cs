@@ -1,16 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OSIsoft.AF;
 using OSIsoft.AF.Asset;
+
 
 namespace ExamplesLibrary
 {
     /// <summary>
     /// This example uses FindElementAttributes to return a list of AFAttribute objects to the client.
     /// </summary>
+    /// <prerequisite-examples>
+    /// none
+    /// </prerequisite-examples>
     public class FindElementAttributesExample : IExample
     {
         public void Run()

@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OSIsoft.AF;
 using OSIsoft.AF.Asset;
+
 
 namespace ExamplesLibrary
 {
@@ -13,6 +10,9 @@ namespace ExamplesLibrary
         /// <summary>
         /// This example creates a sample AF database from basic element and attribute templates.
         /// </summary>
+        /// <prerequisite-examples>
+        /// none
+        /// </prerequisite-examples>
         public void Run()
         {
             PISystems piSystems = new PISystems();

@@ -13,7 +13,7 @@ namespace PI_AF_SDK_Basic_Samples
     {
         static void Main(string[] args)
         {
-            IExample example = new FindAttributesByPathExample();
+            IExample example = new AFConnectionExample();
             example.Run();
 
             Console.WriteLine();

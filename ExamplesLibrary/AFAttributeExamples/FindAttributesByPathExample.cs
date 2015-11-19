@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OSIsoft.AF;
 using OSIsoft.AF.Asset;
+
 
 namespace ExamplesLibrary
 {
@@ -13,6 +10,9 @@ namespace ExamplesLibrary
     /// The target attribute is \\AFServer\NuGreen\NuGreen\Houston\Cracking Process\Equipment\B-210|Process Feedrate.
     /// The alternative is traversing down the AF hierarchy, as shown in HierarchyWalkDownExample.
     /// </summary>
+    /// <prerequisite-examples>
+    /// none
+    /// </prerequisite-examples>
     public class FindAttributesByPathExample : IExample
     {
         public void Run()

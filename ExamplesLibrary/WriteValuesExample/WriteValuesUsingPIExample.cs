@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OSIsoft.AF.Asset;
 using OSIsoft.AF.Data;
 using OSIsoft.AF.PI;
@@ -11,6 +8,13 @@ using OSIsoft.AF.Time;
 
 namespace ExamplesLibrary
 {
+    /// <summary>
+    /// This example demonstrates how to write values to the PI Data Archive using the methods in OSIsoft.AF.PI.
+    /// An example for numeric and digital tags is given.
+    /// </summary>
+    /// <prerequisite-examples>
+    /// CreatePIPointsExample
+    /// </prerequisite-examples>
     public class WriteValuesUsingPIExample : IExample
     {
         public void Run()

@@ -1,14 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OSIsoft.AF;
 using OSIsoft.AF.Asset;
 using OSIsoft.AF.EventFrame;
 
+
 namespace ExamplesLibrary
 {
+    /// <summary>
+    /// This example retrieves 2 event frames created previously by CreateEventFramesExample.
+    /// </summary>
+    /// <prerequisite-examples>
+    /// BuildSimpleDatabaseExample, CreateEventFramesExample
+    /// </prerequisite-examples>
     public class FindEventFramesExample : IExample
     {
         public void Run()

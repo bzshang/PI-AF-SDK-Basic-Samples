@@ -1,18 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OSIsoft.AF;
-using OSIsoft.AF.Asset;
 using OSIsoft.AF.PI;
 using OSIsoft.AF.Search;
+
 
 namespace ExamplesLibrary
 {
     /// <summary>
     /// This example finds PI Points based off of a query and prints the point attributes to the console.
     /// </summary>
+    /// <prerequisite-examples>
+    /// none
+    /// </prerequisite-examples> 
     public class FindPIPointsExample : IExample
     {
         public void Run()

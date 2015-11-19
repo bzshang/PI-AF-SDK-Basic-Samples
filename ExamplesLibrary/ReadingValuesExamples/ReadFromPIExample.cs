@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OSIsoft.AF;
 using OSIsoft.AF.Asset;
 using OSIsoft.AF.PI;
+
 
 namespace ExamplesLibrary
 {
@@ -14,6 +12,9 @@ namespace ExamplesLibrary
     /// By bulk retrieving the data, the number of round-trips to the PI Data Archive are reduced.
     /// This example makes a bulk snapshot call for SINUSOID, SINUSOIDU, CDT158, and CDM158 PI Points.
     /// </summary>
+    /// <prerequisite-examples>
+    /// none
+    /// </prerequisite-examples>
     public class ReadFromPIExample : IExample
     {
         public void Run()
@@ -28,7 +29,7 @@ namespace ExamplesLibrary
 
             if (pointList == null) return;
 
-            // MAKE A BULK CALL TO THE PI SERVER
+            // MAKE A BULK CALL TO THE PI DATA ARCHIVE
             AFListResults<PIPoint,AFValue> values = pointList.CurrentValue(); // Requires AF SDK 2.7+
 
             foreach (AFValue val in values)

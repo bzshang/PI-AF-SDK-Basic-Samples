@@ -1,15 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OSIsoft.AF;
 using OSIsoft.AF.Asset;
 using OSIsoft.AF.Data;
 using OSIsoft.AF.Time;
 
+
 namespace ExamplesLibrary
 {
+    /// <summary>
+    /// This example demonstrates how to write values to the PI Data Archive via an AF Server.
+    /// An example for numeric and digital tags is given.
+    /// </summary>
+    /// <prerequisite-examples>
+    /// BuildSimpleDatabaseExample
+    /// </prerequisite-examples>
     public class WriteValuesUsingAFExample : IExample
     {
         public void Run()

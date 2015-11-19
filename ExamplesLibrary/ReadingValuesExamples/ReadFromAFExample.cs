@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OSIsoft.AF;
 using OSIsoft.AF.Asset;
+
 
 namespace ExamplesLibrary
 {
@@ -15,6 +12,9 @@ namespace ExamplesLibrary
     /// We will retrieve the current vaues for the Process Feedrate and Steam Flow attributes for all Compressor template elements and print to console.
     /// This example is very similar to the PartialLoadElementsExample.
     /// </summary>
+    /// <prerequisite-examples>
+    /// none
+    /// </prerequisite-examples>
     public class ReadFromAFExample : IExample
     {
         public void Run()
@@ -68,7 +68,7 @@ namespace ExamplesLibrary
                         attrList.Add(item.Attributes["Steam Flow"]);
                     }
 
-                    // MAKE A BULK CALL TO THE PI SERVER
+                    // MAKE A BULK CALL TO THE PI DATA ARCHIVE
                     AFValues values = attrList.GetValue();
 
                     Console.WriteLine("  Water Flow values");

@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OSIsoft.AF;
 using OSIsoft.AF.Asset;
+
 
 namespace ExamplesLibrary
 {
@@ -12,6 +9,9 @@ namespace ExamplesLibrary
     /// Find a collection of elements instantiated from the Boiler template.
     /// Print each found element name to the console.
     /// </summary>
+    /// <prerequisite-examples>
+    /// none
+    /// </prerequisite-examples>
     public class FindElementsExample : IExample
     {
         public void Run()
